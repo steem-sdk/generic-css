@@ -1,5 +1,5 @@
 {
-  "name": "generic-css",
+  "name": "spa-generic-css",
   "description": "Generic helper CSS classes",
   "version": "0.1.0",
   "main": "index.js",
