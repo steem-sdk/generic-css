@@ -1,0 +1,41 @@
+
+body, html {
+  margin: 0;
+}
+
+.loading {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.lefted {
+  text-align: left;
+}
+
+.righted {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.justified {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small {
+  font-size: 80%;
+}

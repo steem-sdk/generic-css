@@ -1,0 +1,61 @@
+
+/* this is for xs */
+
+.xs {
+  display: block;
+}
+
+.mobile, .tablet, .desktop, .sm, .md, .lg, .xl {
+  display: none;
+}
+
+
+/* Small devices (feature phone, 276px and up) */
+@media (min-width: 276px) {
+  .tablet, .desktop, .xs, .md, .lg, .xl  {
+    display: none;
+  }
+  .mobile, .sm {
+    display: block;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .tablet, .desktop, .xs, .md, .lg, .xl  {
+    display: none;
+  }
+  .mobile, .sm {
+    display: block;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mobile, .desktop, .xs, .sm, .lg, .xl  {
+    display: none;
+  }
+  .tablet, .md {
+    display: block;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mobile, .tablet, .xs, .sm, .md, .xl  {
+    display: none;
+  }
+  .desktop, .lg {
+    display: block;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mobile, .tablet, .xs, .sm, .md, .lg {
+    display: none;
+  }
+  .xl, .desktop {
+    display: block;
+  }
+}

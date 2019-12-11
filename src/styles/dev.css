@@ -1,0 +1,63 @@
+
+.bg-black {
+  background-color: black;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-grey {
+  background-color: grey;
+}
+
+.mg-1 {
+  margin: 1rem;
+}
+.mg-2 {
+  margin: 2rem;
+}
+.mg-3 {
+  margin: 3rem;
+}
+.mg-4 {
+  margin: 4rem;
+}
+
+.pd-1 {
+  padding: 1rem;
+}
+.pd-2 {
+  padding: 2rem;
+}
+.pd-3 {
+  padding: 3rem;
+}
+.pd-4 {
+  padding: 4rem;
+}
+
+.mg-auto {
+  margin: auto;
+}
+.pd-auto {
+  padding: auto;
+}
+
+.t-c-w {
+  color: white;
+}
+
+.t-c-w-a {
+  color: white !important;
+}
+.t-c-w-a * {
+  color: white !important;
+}
+.t-c-w-a > {
+  color: white !important;
+}

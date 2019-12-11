@@ -1,0 +1,44 @@
+{
+  "name": "generic",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-pwa": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "core-js": "^3.4.8",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "register-service-worker": "^1.6.2",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.2"
+  },
+  "keywords": [
+    "css",
+    "generic"
+  ],
+  "author": "Steem SDK (https://steemsdk.com/)",
+  "contributors": [
+    "Dzivenu <makafuigdzivenu@gmail.com> (https://dzivenu.com/)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steemsdk/generic-css/issues"
+  },
+  "homepage": "https://steemsdk.com/"
+}
