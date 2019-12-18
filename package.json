@@ -6,7 +6,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "pub": "npm version minor --force -m \"version %s\"",
+    "version": "git add -A",
+    "postversion": "npm publish && git push"
   },
   "dependencies": {},
   "devDependencies": {
