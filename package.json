@@ -1,7 +1,7 @@
 {
   "name": "spa-generic-css",
   "description": "Generic helper CSS classes",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
