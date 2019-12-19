@@ -56,6 +56,6 @@
 
 <script>
 export default {
-  name: 'Utils'
+  name: 'Color'
 }
 </script>
