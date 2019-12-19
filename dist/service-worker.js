@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.6ef820c43750ecf0710241ce12dac6c4.js"
+  "/precache-manifest.f6d3bf6e836922cfa66aeed43bdd2834.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "generic"});
+workbox.core.setCacheNameDetails({prefix: "spa-generic-css"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
