@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "pub": "npm version minor --force -m \"version %s\"",
     "version": "git add -A",
-    "postversion": "npm publish && git push"
+    "postversion": "npm run build && npm publish && git push"
   },
   "dependencies": {},
   "devDependencies": {
