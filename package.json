@@ -8,8 +8,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "pub": "npm version minor --force -m \"version %s\"",
+    "preversion": "npm run build",
     "version": "git add -A",
-    "postversion": "npm run build && npm publish && git push"
+    "postversion": "npm publish && git push"
   },
   "dependencies": {},
   "devDependencies": {
