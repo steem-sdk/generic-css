@@ -23,6 +23,19 @@
       <div class="bg-red mg-2 pd-1 w-900">w-900</div>
     </div>
 
+    <div class="bg-blue" style="display: flex; justify-content: space-between; flex-flow: row wrap;">
+      <div class="bg-red mg-2 pd-1 s-50">s-50</div>
+      <div class="bg-red mg-2 pd-1 s-60">s-60</div>
+      <div class="bg-red mg-2 pd-1 s-70">s-70</div>
+      <div class="bg-red mg-2 pd-1 s-80">s-80</div>
+      <div class="bg-red mg-2 pd-1 s-90">s-90</div>
+      <div class="bg-red mg-2 pd-1 s-110">s-110</div>
+      <div class="bg-red mg-2 pd-1 s-120">s-120</div>
+      <div class="bg-red mg-2 pd-1 s-130">s-130</div>
+      <div class="bg-red mg-2 pd-1 s-140">s-140</div>
+      <div class="bg-red mg-2 pd-1 s-150">s-150</div>
+    </div>
+
   </div>
 
   </div>
