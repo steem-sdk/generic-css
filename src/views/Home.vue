@@ -7,6 +7,7 @@
     <Utils />
     <Post />
     <Color />
+    <Spacing />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Grid from '@/components/grid.vue'
 import Post from '@/components/post.vue'
 import Utils from '@/components/utils.vue'
 import Color from '@/components/color.vue'
+import Spacing from '@/components/spacing.vue'
 
 export default {
   name: 'home',
@@ -28,7 +30,8 @@ export default {
     Grid,
     Post,
     Utils,
-    Color
+    Color,
+    Spacing
   }
 }
 </script>
