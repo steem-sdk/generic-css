@@ -24,6 +24,27 @@
       <div class="bg-red mg-2 pd-1 loading">loading</div>
     </div>
 
+    <div class="mg-2">
+      <div class="css-disabled-all">
+        <button class="pd-1 bg-red">`css-disabled-all` to parent div only</button>
+        <button class="pd-1 bg-red">`css-disabled-all` to parent div only</button>
+        <button class="pd-1 bg-red">`css-disabled-all` to parent div only</button>
+      </div>
+      <button class="bg-red mg-2 pd-1 css-disabled">css-disabled</button>
+    </div>
+
+    <div class="mg-2">
+      <div class="word-break-all">
+        <button class="pd-1 bg-red">
+          `word-break-all` to parent div only `word-break-all` to parent div only `word-break-all` to parent div only
+          `word-break-all` to parent div only `word-break-all` to parent div only `word-break-all` to parent div only
+          `word-break-all` to parent div only `word-break-all` to parent div only `word-break-all` to parent div only
+          `word-break-all` to parent div only `word-break-all` to parent div only `word-break-all` to parent div only
+        </button>
+      </div>
+      <button class="bg-red mg-2 pd-1 word-break">word-break</button>
+    </div>
+
   </div>
 
   </div>
