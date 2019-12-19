@@ -1,7 +1,7 @@
 <template>
   <div class="media mg-4">
 
-  <h2 class="mg-2">Grid</h2>
+  <h2 class="mg-2 pd-4 bc-navy tc-white centered">Grid</h2>
 
   <div class="bg-gray t-c-w-a">
 

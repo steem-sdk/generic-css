@@ -1,7 +1,7 @@
 <template>
   <div class="media mg-4">
 
-  <h2 class="mg-2">Media</h2>
+  <h2 class="mg-2 pd-4 bc-navy tc-white centered">Media</h2>
   <h4>Re-size window to see media query elements</h4>
 
   <div class="bg-gray t-c-w-a">

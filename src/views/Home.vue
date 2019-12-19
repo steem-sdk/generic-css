@@ -6,6 +6,7 @@
     <Grid />
     <Utils />
     <Post />
+    <Color />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Container from '@/components/container.vue'
 import Grid from '@/components/grid.vue'
 import Post from '@/components/post.vue'
 import Utils from '@/components/utils.vue'
+import Color from '@/components/color.vue'
 
 export default {
   name: 'home',
@@ -25,7 +27,8 @@ export default {
     Container,
     Grid,
     Post,
-    Utils
+    Utils,
+    Color
   }
 }
 </script>
