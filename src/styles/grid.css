@@ -2,7 +2,7 @@
 .two-grid-container, .three-grid-container, .four-grid-container {
   display: inline-grid;
   grid-template-columns: auto;
-  grid-gap: 0;
+  grid-gap: 20px;
   width: 100%;
 }
 
