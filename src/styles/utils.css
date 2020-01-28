@@ -3,13 +3,6 @@ body, html {
   margin: 0;
 }
 
-.loading {
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .centered {
   text-align: center;
 }
