@@ -1,8 +1,8 @@
 
-.two-grid-container, .three-grid-container, .four-grid-container {
+.aside-first-grid, .aside-second-grid, .two-grid-container, .three-grid-container, .four-grid-container {
   display: inline-grid;
   grid-template-columns: auto;
-  grid-gap: 20px;
+  grid-gap: 0px;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@
 @media (min-width: 768px) {
   .two-grid-container, .three-grid-container, .four-grid-container {
     grid-template-columns: auto auto;
-    grid-gap: 40px;
+    grid-gap: 30px;
   }
   .dual-grid {
     width: 100%;
@@ -54,11 +54,19 @@
   }
   .three-grid-container {
     grid-template-columns: auto auto auto;
-    grid-gap: 50px;
+    grid-gap: 40px;
   }
   .four-grid-container {
     grid-template-columns: auto auto auto;
-    grid-gap: 35px;
+    grid-gap: 30px;
+  }
+  .aside-first-grid {
+    grid-template-columns: 26% 70%;
+    grid-gap: 4%;
+  }
+  .aside-second-grid {
+    grid-template-columns: 70% 26%;
+    grid-gap: 4%;
   }
 }
 
@@ -66,6 +74,6 @@
 @media (min-width: 1200px) {
   .four-grid-container {
     grid-template-columns: auto auto auto auto;
-    grid-gap: 35px;
+    grid-gap: 30px;
   }
 }
